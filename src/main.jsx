@@ -5,7 +5,10 @@ import ReactDOM from 'react-dom/client'
 // import {CounterWithCustomHook} from './components/01-useState/CounterWithCustomHook'
 // import { SimpleForm } from './components/02-useEffect/SimpleForm'
 // import { FormWithCustomHook } from './components/02-useEffect/FormWithCustomHook'
-import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks'
+// import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks'
+// import { FocusScreen } from './components/04-useRef/FocusScreen'
+import { RealExampleRef } from './components/04-useRef/RealExampleRef'
+
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -15,6 +18,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <CounterWithCustomHook /> */}
     {/* <SimpleForm /> */}
     {/* <FormWithCustomHook /> */}
-    <MultipleCustomHooks />
+    {/* <MultipleCustomHooks /> */}
+    {/* <FocusScreen /> */}
+    {/*<RealExampleRef />*/} {/*ESTA TAREA ESTA INCOMPLETA*/}
+    
   </React.StrictMode>,
 )
