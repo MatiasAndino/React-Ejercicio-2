@@ -1,0 +1,13 @@
+body {
+    padding: 50px;
+}
+
+.item {
+    display: flex;
+    width: 600px;
+    border: 1px solid gray;
+    padding: 2px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
