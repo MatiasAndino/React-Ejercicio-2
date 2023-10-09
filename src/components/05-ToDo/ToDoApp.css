@@ -7,7 +7,15 @@ body {
     width: 600px;
     border: 1px solid gray;
     padding: 2px;
-    margin: auto;
+    margin: 3px auto;
     align-items: center;
     justify-content: space-between;
+}
+
+p {
+    margin: 0;
+}
+
+.complete {
+    text-decoration: line-through;
 }
