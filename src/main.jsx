@@ -8,9 +8,10 @@ import ReactDOM from 'react-dom/client'
 // import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks'
 // import { FocusScreen } from './components/04-useRef/FocusScreen'
 // import { RealExampleRef } from './components/04-useRef/RealExampleRef'
-import { ToDoApp } from './components/05-ToDo/ToDoApp'
+// import { ToDoApp } from './components/05-ToDo/ToDoApp'
 
 import './index.css'
+import { MainApp } from './components/06-useContext/MainApp'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -22,7 +23,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <MultipleCustomHooks /> */}
     {/* <FocusScreen /> */}
     {/*<RealExampleRef />*/} {/*ESTA TAREA ESTA INCOMPLETA*/}
-    <ToDoApp />
+    {/* <ToDoApp /> */}
+    <MainApp />
     
   </React.StrictMode>,
 )
